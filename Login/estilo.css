@@ -1,0 +1,95 @@
+
+html{
+	background:url("feedback-img.jpg") no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.form-menu{
+	width: 100%;
+	float: left;
+	padding-top: 0px;
+}
+.form-div{
+	background-color: rgba(72,72,72,0.4);
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: -260px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+.cajas-input{
+	color: #3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #FBFBFB;
+	padding: 13px 13px  13px 54px;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 3px solid rgba(0,0,0,0);
+	box-sizing:border-box;
+
+}
+#name{
+	background-image:url(name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+ 	background-repeat: no-repeat;
+}
+#email{
+	background-image:url(email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+#text{
+	background-image:url(comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.cajas-input:focus{
+	color:#3498db;
+	border:3px solid #3498db;
+}
+#button-blue{
+	float: left;
+	width: 100%;
+	border: #FBFBFB solid 4px;
+	background-color: #3498db;
+	color: #fff;
+	font-size: 24px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: -4px;
+	font-weight: 700;
+	cursor: pointer;
+}
+#button-blue:hover{
+	background-color: rgba(0, 0, 0, 0);
+	color: #0493bd;
+}
+.submit:hover .easy{
+	width: 100%;
+	background-color: #fff;
+}
+.easy{
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	transition: .3s ease;
+}
+
+
